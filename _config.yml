@@ -5,5 +5,16 @@ author:
   email: your-email@domain.com
 description: "PRIMES BA Team - Documentation"
 
+# Site subpath, e.g. /blog
+baseurl:            ""
+
+# Permalink URLs structure, for permalink style options see: https://jekyllrb.com/docs/permalinks/
+permalink:          /:title/
+
+# Site base hostname & protocol, e.g. http://example.com
+url:                ""
+
 # Build settings
 remote_theme: jekyll/minima
+
+
