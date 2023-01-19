@@ -13,6 +13,6 @@ baseurl: "/PRIMES-Doc"
 url: "https://unhcrdata.github.io/PRIMES-Doc/index.html"
 
 # Build settings
-remote_theme: jekyll/minima
+remote_theme: pages-themes/cayman@v0.2.0
 
 
