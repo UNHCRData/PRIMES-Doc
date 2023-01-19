@@ -6,7 +6,7 @@ author:
 description: "PRIMES BA Team - Documentation"
 
 # Site subpath, e.g. /blog
-baseurl: "/PRIMES-Doc"
+baseurl: ""
 
 
 # Site base hostname & protocol, e.g. http://example.com
