@@ -12,6 +12,13 @@ baseurl: "/"
 # Site base hostname & protocol, e.g. http://example.com
 url: "https://unhcrdata.github.io/PRIMES-Doc/index.html"
 
+# Path to post content assets directory i.e post images, pdfs etc
+uploads:            /uploads/
+
+# Build settings
+markdown:           kramdown
+highlighter:        rouge
+
 sass:
   style:            compressed
 
