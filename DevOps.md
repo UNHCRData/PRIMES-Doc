@@ -87,36 +87,19 @@ Mandatory Fields:
 ## Main Flow
 <pre>
 ```mermaid
-graph LR;
-    A[New]-->B[Active]-->C[Approved]-->D[In Analysis]-->E[In Development]-->F[Resolved]-->G[In Test]-->H[In UAT]-->I[Closed]
+  graph TD;
+      A--&gt;B;
+      A--&gt;C;
+      B--&gt;D;
+      C--&gt;D;
 ```
 </pre>
 
 ## On Hold / Rejected - Flow
-<pre>
-```mermaid
-graph LR;
-    A[Any Stage in **Proposed** or **In Progress**] -->B{Any Issue?}
-    B --> C[On Hold]
-    B --> D[Rejected] 
-```
-</pre>
+
 -----
 # Responsibility
-</pre>
-```mermaid
-sequenceDiagram
-    Creation ->> New: BA / SE / SP - L2/L3
-    New->>Active: BA /SE
-    Active->>Approved: BA /SE
-    Approved ->> In Analysis: SP - Dev
-    In Analysis ->> In Development: SP - Dev
-    In Development->> Resolved: SP - Dev
-    Resolved ->> In Test: SP - Test / BA Test
-    In Test->> In UAT: SP - Test / BA Test
-    In UAT->> Closed: SP - Rel
-```
-</pre>
+
 
 ## Acronyms
 - **SP - L2/L3**: Services Provide Tech at the L2 or L3 level
