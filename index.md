@@ -7,4 +7,4 @@ hero:
 ---
 
 
-[Link to another page](./ado-pipelines.html).
+[Link page](./ado-pipelines.html).
