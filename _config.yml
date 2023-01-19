@@ -1,9 +1,9 @@
 # Site settings
-title: Great New Blog Title
+title: PRIMES BA Documentation
 author:
-  name: Evan Will
+  name: GDS - PDSS - BA Team
   email: your-email@domain.com
-description: "Great site about Jekyll on GH-Pages."
+description: "PRIMES BA Team - Documentation"
 
 # Build settings
 remote_theme: jekyll/minima
