@@ -6,13 +6,11 @@ author:
 description: "PRIMES BA Team - Documentation"
 
 # Site subpath, e.g. /blog
-baseurl:            ""
+baseurl: "/PRIMES-Doc"
 
-# Permalink URLs structure, for permalink style options see: https://jekyllrb.com/docs/permalinks/
-permalink:          /:title/
 
 # Site base hostname & protocol, e.g. http://example.com
-url:                ""
+url: "https://unhcrdata.github.io/PRIMES-Doc/"
 
 # Build settings
 remote_theme: jekyll/minima
