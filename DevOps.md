@@ -81,19 +81,11 @@ Mandatory Fields:
 - In Scope
 - Work Around Available
 - Work Around Accepted
-----
 
+-----
 # Sequence
 ## Main Flow
-<pre>
-```mermaid
-  graph TD;
-      A--&gt;B;
-      A--&gt;C;
-      B--&gt;D;
-      C--&gt;D;
-```
-</pre>
+
 
 ## On Hold / Rejected - Flow
 
