@@ -8,3 +8,5 @@ hero:
 
 
 [Link page](./ado-pipelines.html).
+
+[Link page](./DevOps.html).
