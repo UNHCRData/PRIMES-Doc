@@ -36,6 +36,12 @@ collections:
 
 # Defaults
 defaults:
+  # _posts
+  - scope:
+      path:         ""
+      type:         posts
+    values:
+      layout:       post
   # _docs
   - scope:
       path:         ""
