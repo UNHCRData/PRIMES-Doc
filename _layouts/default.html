@@ -1,31 +1,32 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-{% include head.html %}
+    {% include head.html %}
 
-<body>
-  
-{% if page.hero %}
-  {% include hero.html %}
-{% else %}
-  {% include navbar.html %}
-{% endif %}
-    
-{{ content }}
-  
- {% include offcanvas-docs.html %}
+    <body>
 
-{% include offcanvas.html %}
+    {% if page.hero %}
+        {% include hero.html %}
+    {% else %}
+        {% include navbar.html %}
+    {% endif %}
 
-{% if page.layout != 'doc' %}
-  {% include footer.html %}
-{% endif %}
+    {{ content }}
 
-{% if page.layout == 'doc' %}
-  {% include hook-pre-closing-body-doc.html %}
-{% endif %}
+    {% include offcanvas-docs.html %}
 
-{% include hook-pre-closing-body.html %}
+    {% include offcanvas.html %}
 
-</body>
+    {% if page.layout != 'doc' %}
+        {% include footer.html %}
+    {% endif %}
+
+    {% if page.layout == 'doc' %}
+        {% include hook-pre-closing-body-doc.html %}
+    {% endif %}
+
+    {% include hook-pre-closing-body.html %}
+
+    </body>
+
 </html>
