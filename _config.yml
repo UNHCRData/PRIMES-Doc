@@ -1,9 +1,9 @@
 # Site settings
-title: PRIMES BA Documentation
+title: PRIMES
 author:
   name: GDS - PDSS - BA Team
   email: your-email@domain.com
-description: "PRIMES BA Team - Documentation"
+description: "PRIMES Documentation"
 
 # Site subpath, e.g. /blog
 baseurl: "/"
