@@ -1,11 +1,4 @@
-[[_TOC_]]
-
 # Diagrams
-
-<IMG  src="https://dev.azure.com/PRIMES-DevOps/d4e91da5-6d4e-4988-ba82-f5d8009f848c/_apis/git/repositories/e2fa2694-5b57-4246-97a2-ee798aed03d1/Items?path=/.attachments/Picture1-97f44423-7008-422d-b9a4-697d0b6b8132.png&amp;download=false&amp;resolveLfs=true&amp;%24format=octetStream&amp;api-version=5.0-preview.1&amp;sanitize=true&amp;versionDescriptor.version=wikiMaster"  alt="Picture1.png"/>
-
-
-<IMG  src="https://dev.azure.com/PRIMES-DevOps/d4e91da5-6d4e-4988-ba82-f5d8009f848c/_apis/git/repositories/e2fa2694-5b57-4246-97a2-ee798aed03d1/Items?path=/.attachments/Picture2-b2a885fb-f5e8-4ebd-b954-e0cc9d692568.png&amp;download=false&amp;resolveLfs=true&amp;%24format=octetStream&amp;api-version=5.0-preview.1&amp;sanitize=true&amp;versionDescriptor.version=wikiMaster"  alt="Picture2.png"/>
 
 
 # Work Item Definitions
