@@ -10,7 +10,7 @@ baseurl: "/PRIMES-Doc"
 
 
 # Site base hostname & protocol, e.g. http://example.com
-url: "https://unhcrdata.github.io/PRIMES-Doc/"
+url: "https://unhcrdata.github.io/PRIMES-Doc/index.html"
 
 # Build settings
 remote_theme: jekyll/minima
