@@ -15,11 +15,33 @@ url: "https://unhcrdata.github.io/PRIMES-Doc/index.html"
 # Path to post content assets directory i.e post images, pdfs etc
 uploads:            /uploads/
 
+navbar:
+    sticky:         true
+    search:         true
+    
 # Build settings
 markdown:           kramdown
 highlighter:        rouge
 
 sass:
   style:            compressed
+  
+collections:
+  docs:
+    output:         true
+  faqs:
+    output:         false
+  changelogs:
+    output:         false
+
+# Defaults
+defaults:
+  # _docs
+  - scope:
+      path:         ""
+      type:         docs
+    values:
+      layout:       doc
+
 
 
