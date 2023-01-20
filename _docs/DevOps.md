@@ -5,14 +5,33 @@ author: batisa@unhcr.org
 tags: [devops]
 ---
 
-<pre>
+````
 ```mermaid
-graph LR;
-    A[Any Stage in **Proposed** or **In Progress**] -->B{Any Issue?}
-    B --> C[On Hold]
-    B --> D[Rejected] 
+sequenceDiagram
+    participant dotcom
+    participant iframe
+    participant viewscreen
+    dotcom->>iframe: loads html w/ iframe url
+    iframe->>viewscreen: request template
+    viewscreen->>iframe: html & javascript
+    iframe->>dotcom: iframe ready
+    dotcom->>iframe: set mermaid data on iframe
+    iframe->>iframe: render mermaid
 ```
-</pre>
+````
+
+```mermaid
+sequenceDiagram
+    participant dotcom
+    participant iframe
+    participant viewscreen
+    dotcom->>iframe: loads html w/ iframe url
+    iframe->>viewscreen: request template
+    viewscreen->>iframe: html & javascript
+    iframe->>dotcom: iframe ready
+    dotcom->>iframe: set mermaid data on iframe
+    iframe->>iframe: render mermaid
+```
 
 # Diagrams
 
