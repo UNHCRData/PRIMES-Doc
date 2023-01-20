@@ -5,6 +5,13 @@ author: batisa@unhcr.org
 tags: [devops]
 ---
 
+```mermaid
+graph LR;
+    A[Any Stage in **Proposed** or **In Progress**] -->B{Any Issue?}
+    B --> C[On Hold]
+    B --> D[Rejected] 
+```
+
 # Diagrams
 
 # Work Item Definitions
