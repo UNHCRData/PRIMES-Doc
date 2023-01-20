@@ -5,12 +5,14 @@ author: batisa@unhcr.org
 tags: [devops]
 ---
 
+<pre>
 ```mermaid
 graph LR;
     A[Any Stage in **Proposed** or **In Progress**] -->B{Any Issue?}
     B --> C[On Hold]
     B --> D[Rejected] 
 ```
+</pre>
 
 # Diagrams
 
