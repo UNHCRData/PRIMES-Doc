@@ -6,10 +6,10 @@ author:
 description: "PRIMES Documentation"
 
 # Site subpath, e.g. /blog
-baseurl: "/PRIMES-Doc"
+baseurl: "/PRIMES-Doc/"
 
 # Permalink URLs structure, for permalink style options see: https://jekyllrb.com/docs/permalinks/
-permalink:  /:title/
+permalink:  /PRIMES-Doc/:title/
 
 # Site base hostname & protocol, e.g. http://example.com
 url: "https://unhcrdata.github.io/PRIMES-Doc/index.html"
@@ -46,7 +46,7 @@ defaults:
       layout:       post
   # _docs
   - scope:
-      path:         "/PRIMES-Doc/"
+      path:         ""
       type:         docs
     values:
       layout:       doc
