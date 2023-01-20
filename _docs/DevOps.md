@@ -1,5 +1,11 @@
-# Diagrams
+---
+title: DevOps
+subtitle: This explain how to use DevOps
+author: batisa@unhcr.org
+tags: [devops]
+---
 
+# Diagrams
 
 # Work Item Definitions
 
